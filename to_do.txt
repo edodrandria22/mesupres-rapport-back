@@ -1,0 +1,69 @@
+26/02/2026
+   generalisationCode() -- ok -- 60mn
+   insert Rapport
+      --transaction
+         insert CalendriersUtilisateurs
+         insert Activites
+         insert EffectsImpacts
+
+   getAllCalendriersUtilisateurs(Utilisateur)
+   getAllRapportsParUtilisateur(Utilisateur)
+   getAllRapports()
+   getByIdRapport(idRapport)
+27/02/2026
+   generalisationCode() -- a ok -- 30 mn
+
+   getCalendrierDisponibleParUtilisateur() -- a faire -- 30 mn
+      --getAllCalendrierDisponible() -- a ok -- 10 mn
+      --getCalendrierDisponibleParUtilisateur() -- ok -- 10 mn
+      --apiCalendrierUtilsateurDisponible() -- a faire -- 10 mn
+
+   getAllCalendrier(dateDebut,dateFin) -- ok -- 20 mn
+
+28/02/2026
+   generalisationCode() -- a ok -- 30 mn
+   changerEffectsImpacts() -- a faire -- 20 mn
+       --creer entity TypeEffectImpact a ok --5mn --2mn
+       --modifier EffectsImpacts a ok --5mn
+       --creer repository TypeEffectImpact a ok --5mn
+       --creer service TypeEffectImpact a ok --5mn
+       
+       
+   changerFonctionInsertRapport() -- a faire -- 40 mn
+      --creer fonction insertAvecTypeEffectImpact() -- a ok -- 5mn
+      --changer dtoEffectImpact() -- a ok -- 5mn
+      --changer fonction insertRapportDto() -- a ok -- 10mn
+      --verification insertListeEffectImpactDto() -- ok -- 5mn
+      --test api et rectification-- a faire -- 15mn
+   
+   changer Entite CalendriersUtilisateurs avec dateValidation -- a faire -- 5mn
+   
+   changerFonctionGetRapport() -- a faire -- 70 mn   
+      --changer apiGetRapport() -- a ok -- 10mn
+      --test api -- a faire -- 60mn
+   
+   modifier EffectsImpacts -- a faire -- 30 mn
+   modifier Activite -- a faire -- 20 mn
+   supprimer EffectsImpacts -- a faire -- 20 mn
+   supprimer Activite -- a faire -- 20 mn
+
+
+--statistique dashboard -- a faire -- 30mn
+   --getAllUtilisateurActive() -- a faire -- 10mn
+   --getAllUtilisateurRetardParCalendrier() -- a faire -- 10mn
+
+01/03/2026
+   --changement de l'api rapport -- a ok -- 20mn
+       --changement de la dto rapport -- a ok -- 10mn
+       --changement de la fonction saveRapport -- ok -- 10mn
+02/03/2026
+   --changement de la generalisationCode() -- ok -- 60mn
+   --modifier status rapport 20 mn
+      --fonction pour changer status -- ok -- 5mn
+      --api pour valider ou annuler validation -- a ok 10 mn
+   --modification rapport -- a faire -- 30mn
+      --fonction pour modification -- a ok 15 mn
+      --api pour modification rapport -- a ok 10 mn
+      --test pour l'api modification rapport -- ok -- 5mn
+
+
