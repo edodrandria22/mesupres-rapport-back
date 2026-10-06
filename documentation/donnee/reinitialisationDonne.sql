@@ -1,5 +1,2 @@
-
--- pour supprimer les donne des calendriers_utilisateurs
-delete from effects_impacts;
-delete from activites;
-delete from calendriers_utilisateurs;
+psql -h 127.0.0.1 -p 5432 -U mesupres -d courrier
+CREATE ROLE sc3razo8900_rapport;
